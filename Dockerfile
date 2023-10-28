@@ -4,8 +4,6 @@ FROM alpine:3.14
 LABEL maintainer="szane @Cryptoambient"
 LABEL maintainer= "Tonight at the Magic Theater, for Mad men only and once Price only YOUR MIND"
 
-
-
 RUN apk --update add python3 py3-pip py3-netifaces py3-prettytable py3-certifi \
 py3-chardet py3-future py3-idna py3-netaddr py3-parsing py3-six\
  openssh nmap nmap-scripts curl tcpdump ruby bind-tools jq nmap-ncat bash util-linux libcap libcap-ng-utils iproute2 iptables && \
